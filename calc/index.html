@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<title>Calculator</title>
+	</head>
+	<body class="body">
+		<div class="wrapper">
+			<main class="main">
+				<div class="main__calc calc">
+					<div class="calc__container container">
+						<div class="calc__block">
+							<div class="calc__block-inputs calc__block-inputs-income">
+								<h4 class="calc__title">Доход в месяц</h4>
+								<form class="calc__form">
+									<div class="calc__form-item">
+										<input type="number" placeholder="Зарплата" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Зарплата" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Зарплата" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Зарплата" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item calc__form-item-button">
+										<input class="calc__button calc__button-reset" type="reset"/>
+										<button class="calc__button calc__button-add">Добавить поле</button>
+									</div>
+								</form>
+							</div>
+							<div class="calc__block-inputs calc__block-inputs-expenses">
+								<h2 class="calc__title">Расходы в месяц</h2>
+								<form class="calc__form">
+									<div class="calc__form-item">
+										<input type="number" placeholder="ЖКХ" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Мобильная связь" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Домашний интернет" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item">
+										<input type="number" placeholder="Кредит" class="calc__input"/>
+										<button class="calc__button calc__button-input">
+											<img class="calc__image" src="img/1345823.png" alt="delete">
+										</button>
+									</div>
+									<div class="calc__form-item calc__form-item-button">
+										<input class="calc__button calc__button-reset" type="reset"/>
+										<button class="calc__button calc__button-add">Добавить поле</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="calc__calculations">
+							<div class="calc__balance calc__balance-month">
+								<div class="calc__text">Доступно в месяц:</div>
+								<div class="calc__value">0</div>
+							</div>
+							<div class="calc__balance calc__balance-day">
+								<div class="calc__text">Доступно в день (с учетом отложенных средств):</div>
+								<div class="calc__value">0</div>
+							</div>
+							<div class="calc__balance calc__balance-year">
+								<div class="calc__text">Накопится за год:</div>
+								<div class="calc__value">0</div>
+							</div>
+						</div>
+						<div class="calc__percent percent">
+							<form class="percent__form">
+								<h3 class="percent__title">Сколько отложить</h3>
+								<div class="percent__inputs">
+									<input class="percent__input-range" type="range" min="1" max="100" step="1" value="0" id="percent-input-range"/>
+								</div>
+								<div class="percent__text" id="percent-input-range">0 %</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
