@@ -1,5 +1,5 @@
 .body {
-	
+	/*TODO пустая строка*/
 	background: #e5e5e5;
 	font-size: 16px;
 	color: #252B42;
@@ -19,6 +19,8 @@
 	overflow: hidden; 
 }
 /*-------------------------------------------------------------------------*/
+
+/*TODO пустые стили, к тому же отсутствует препроцессор*/
 .main {
 }
 .main__calc {
@@ -48,6 +50,7 @@
 	line-height: 142%;
 	margin: 25px 20px;
 }
+/*TODO пустой стиль*/
 .calc__form {
 }
 .calc__form-item {
@@ -106,6 +109,7 @@
     border-radius: 37px;
 	margin: 0 10px 0 0;
 }
+/*TODO пустой стиль*/
 .calc__button-add {
 }
 .calc__calculations {
@@ -119,6 +123,7 @@
 .calc__balance:not(:last-child) {
 	margin: 0 0 15px 0;
 }
+/*TODO пустые стили*/
 .calc__balance-month {
 }
 .calc__balance-day {
@@ -149,6 +154,7 @@
 .calc__percent {
 	margin: 50px 20px 50px 20px;
 }
+/*TODO пустые стили*/
 .percent {
 }
 .percent__form {
@@ -157,6 +163,7 @@
 	font-size: 22px;
 	line-height: 142%;
 }
+/*TODO пустой стиль*/
 .percent__input {
 }
 .percent__input-range {
@@ -179,6 +186,7 @@
     -webkit-appearance: none;
     margin-top: -4px;
 }
+/*TODO пустой стиль*/
 .percent__text {
 }
 /*-------------------------------------------------------------------------*/
